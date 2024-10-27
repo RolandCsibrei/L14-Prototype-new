@@ -23,7 +23,7 @@ export class FpController {
   cylinder!: AbstractMesh
   ground!: AbstractMesh
   sphereMat!: PBRMaterial
-  x: int
+  x: number
 
   constructor(private canvas: HTMLCanvasElement) {
     this.x = Math.floor(Math.random() * 2) + 1
